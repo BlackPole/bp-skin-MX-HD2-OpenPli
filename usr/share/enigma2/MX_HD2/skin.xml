@@ -36,9 +36,9 @@ Any modification and redistribution of this skin for other images/firmwares is n
 <color name="dark" value="#15102748"/>
 </colors>
 <fonts>
-<font filename="nmsbd.ttf" name="Regular" scale="100"/>
-<font filename="ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1"/>
-<font filename="tuxtxt.ttf" name="Console" scale="100"/>
+<font filename="MX_HD2/fonts/nmsbd.ttf" name="Regular" scale="100"/>
+<font filename="MX_HD2/fonts/ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1"/>
+<font filename="MX_HD2/fonts/tuxtxt.ttf" name="Console" scale="100"/>
 </fonts>
 <windowstyle type="skinned" id="0">
 <title offset="21,13" font="Regular;30"/>
