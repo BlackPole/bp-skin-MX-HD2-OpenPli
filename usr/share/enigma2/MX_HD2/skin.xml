@@ -702,7 +702,7 @@ MultiContentEntryText(pos = (575, 0), size = (105, 25),  font = 1, flags = RT_HA
   <screen name="ChannelSelection" position="0,0" size="1280,720" title="" backgroundColor="backl" flags="wfNoBorder">
     <ePixmap pixmap="MX_HD2/menu/b1.png" position="0,18" size="1280,82" zPosition="-1" alphatest="blend" />
     <ePixmap pixmap="MX_HD2/menu/b2.png" position="0,634" size="1280,71" zPosition="-1" alphatest="blend" />
-    <ePixmap pixmap="MX_HD2/menu/tv.png" position="866,102" size="358,208" zPosition="-1" alphatest="blend" />
+    <ePixmap pixmap="MX_HD2/menu/tv3.png" position="846,111" size="425,240" zPosition="-1" alphatest="blend" />
     <ePixmap pixmap="MX_HD2/menu/ok.png" position="940,658" size="36,25" alphatest="blend" />
     <ePixmap pixmap="MX_HD2/menu/menubutton.png" position="1000,658" size="50,25" alphatest="blend" />
     <ePixmap pixmap="MX_HD2/menu/arrow1.png" position="60,646" size="32,50" alphatest="blend" />
@@ -724,24 +724,24 @@ MultiContentEntryText(pos = (575, 0), size = (105, 25),  font = 1, flags = RT_HA
     <widget name="key_green" position="300,108" size="190,35" zPosition="1" font="Regular;24" halign="left" valign="center" foregroundColor="black" backgroundColor="backl" transparent="1" />
     <widget name="key_yellow" position="500,108" size="190,35" zPosition="1" font="Regular;24" halign="left" valign="center" foregroundColor="black" backgroundColor="backl" transparent="1" />
     <widget name="key_blue" position="700,108" size="190,35" zPosition="1" font="Regular;24" halign="left" valign="center" foregroundColor="black" backgroundColor="backl" transparent="1" />
-    <widget source="session.VideoPicture" render="Pig" position="875,111" zPosition="3" size="340,190" backgroundColor="transparent2" />
-    <widget source="ServiceEvent" render="Label" position="859,310" zPosition="1" size="70,26" font="Regular;21" halign="right" foregroundColor="black" backgroundColor="backl" transparent="1">
+    <widget source="session.VideoPicture" render="Pig" position="855,119" zPosition="3" size="407,222" backgroundColor="transparent2" />
+    <widget source="ServiceEvent" render="Label" position="854,352" zPosition="4" size="70,26" font="Regular;21" halign="right" foregroundColor="black" backgroundColor="backl" transparent="1">
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText">
       </convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="1163,310" zPosition="1" size="70,26" font="Regular;21" halign="left" foregroundColor="black" backgroundColor="backl" transparent="1">
+    <widget source="ServiceEvent" render="Label" position="1191,352" zPosition="4" size="70,26" font="Regular;21" halign="left" foregroundColor="black" backgroundColor="backl" transparent="1">
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Format:%H:%M</convert>
     </widget>
-    <widget source="ServiceEvent" render="Progress" position="936,315" zPosition="1" pixmap="MX_HD2/progress.png" size="220,15" borderWidth="1" borderColor="black">
+    <widget source="ServiceEvent" render="Progress" position="948,356" zPosition="4" pixmap="MX_HD2/progress.png" size="220,15" borderWidth="1" borderColor="black">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="866,336" zPosition="1" size="360,255" font="Regular;19" foregroundColor="unfcfcfc" backgroundColor="backl" transparent="1">
+    <widget source="ServiceEvent" render="Label" position="854,378" zPosition="1" size="407,230" font="Regular;19" backgroundColor="backl" transparent="1" foregroundColor="unfcfcfc">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
-    <widget source="ServiceEvent" render="NextEpgInfo" position="866,594" zPosition="1" size="362,24" font="Regular;20" foregroundColor="fore2" backgroundColor="backl" transparent="1">
-    </widget>
+    <widget source="ServiceEvent" render="NextEpgInfo" position="854,610" zPosition="1" size="407,24" font="Regular;20" foregroundColor="fore2" backgroundColor="backl" transparent="1">
+</widget>
   </screen>
   <screen name="ChannelSelectionRadio" position="82,90" size="1116,310" title="Channel Selection">
     <widget name="list" position="10,7" size="1096,256" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="black" backgroundColor="backb" backgroundColorSelected="backs" foregroundColorSelected="white" serviceItemHeight="32" foregroundColorServiceNotAvail="#666666" colorEventProgressbarSelected="white" colorServiceDescription="#333333" colorServiceDescriptionSelected="#cae4ff" serviceNumberFont="Regular;22" serviceNameFont="Regular;22" serviceInfoFont="Regular;22" selectionPixmap="MX_HD2/menu/button1096x28.png" backgroundPixmap="MX_HD2/menu/bg1096x28.png" transparent="1" />
