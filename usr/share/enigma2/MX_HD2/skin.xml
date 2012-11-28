@@ -120,8 +120,8 @@ Any modification and redistribution of this skin for other images/firmwares is n
   <screen name="InfoBar" position="0,558" size="1280,150" title="InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1280,150" pixmap="MX_HD2/infobar.png" />
     <widget source="session.CurrentService" render="ChannelNumber" position="50,22" size="160,34" font="Regular;28" foregroundColor="white" backgroundColor="un9f2322" halign="center" transparent="1" />
-    <eLabel text="SNR:" position="604,35" size="47,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1" />
-    <widget source="session.FrontendStatus" render="Label" position="651,35" size="55,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1">
+    <eLabel text="SNR:" position="605,35" size="47,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1" />
+    <widget source="session.FrontendStatus" render="Label" position="652,35" size="55,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
     <widget source="session.FrontendStatus" render="Progress" position="605,18" size="170,12" zPosition="1" pixmap="MX_HD2/snr2.png" borderWidth="1" borderColor="un510000" backgroundColor="transpBlack">
@@ -264,8 +264,8 @@ Any modification and redistribution of this skin for other images/firmwares is n
   <screen name="SecondInfoBar" flags="wfNoBorder" position="0,515" size="1280,185" title="BP" backgroundColor="transparent2">
     <ePixmap position="0,0" zPosition="-1" size="1280,185" pixmap="MX_HD2/infobar_ext.png" />
     <widget name="Universe" position="1043,26" size="60,25" halign="left" zPosition="1" font="Regular;11" foregroundColor="white" backgroundColor="un9f2322" transparent="1" />
-    <eLabel text="SNR:" position="604,35" size="47,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1" />
-    <widget source="session.FrontendStatus" render="Label" position="651,35" size="55,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1">
+    <eLabel text="SNR:" position="605,35" size="47,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1" />
+    <widget source="session.FrontendStatus" render="Label" position="652,35" size="55,18" font="Regular;16" foregroundColor="white" backgroundColor="un9f2322" transparent="1">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
     <widget source="session.FrontendStatus" render="Progress" position="605,18" size="170,12" zPosition="1" pixmap="MX_HD2/snr2.png" borderWidth="1" borderColor="un510000" backgroundColor="transpBlack">
