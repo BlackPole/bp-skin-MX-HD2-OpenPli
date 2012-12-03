@@ -924,7 +924,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3
     </widget>
     <ePixmap pixmap="MX_HD2/menu/scann.png" position="1155,535" size="65,65" zPosition="-1" alphatest="blend" />
     <widget source="Title" render="Label" position="0,35" size="1280,50" zPosition="1" halign="center" font="Regular;38" foregroundColor="black" backgroundColor="backm" transparent="1" />
-    <widget name="epg_description" position="62,165" size="780,440" font="Regular;22" foregroundColor="black" backgroundColor="backl" transparent="1" />
+    <widget name="epg_description" position="62,165" size="780,440" font="Regular; 23" foregroundColor="black" backgroundColor="backl" transparent="1" />
     <widget name="channel" position="60,110" size="300,35" font="Regular;30" halign="left" foregroundColor="fore2" backgroundColor="backl" transparent="1" />
     <widget name="datetime" position="370,113" size="200,30" font="Regular;26" halign="left" foregroundColor="fore2" backgroundColor="backl" transparent="1" />
     <widget name="duration" position="650,113" size="200,30" font="Regular;26" halign="left" foregroundColor="fore2" backgroundColor="backl" transparent="1" />
