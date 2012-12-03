@@ -737,7 +737,7 @@ MultiContentEntryText(pos = (575, 0), size = (105, 25),  font = 1, flags = RT_HA
     <widget source="ServiceEvent" render="Progress" position="948,356" zPosition="4" pixmap="MX_HD2/progress.png" size="220,15" borderWidth="1" borderColor="black">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="849,378" zPosition="1" size="418,225" font="Regular;19" backgroundColor="backl" transparent="1" foregroundColor="unfcfcfc">
+    <widget source="ServiceEvent" render="Label" position="849,378" zPosition="1" size="418,222" font="Regular;19" backgroundColor="backl" transparent="1" foregroundColor="unfcfcfc">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget source="ServiceEvent" render="NextEpgInfo" position="849,603" zPosition="1" size="418,24" font="Regular;20" foregroundColor="fore2" backgroundColor="backl" transparent="1">
